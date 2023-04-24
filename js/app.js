@@ -26,7 +26,9 @@ $('.resumeClose').on('click',()=>{
   $('.resumeIcon').on('dblclick',()=>{
     if(!resumeVis){
       $('.resumeContainer').show();
-    }
+    }    
+  })
+  $('.videoIcon').on('dblclick',()=>{
     
   })  
 })

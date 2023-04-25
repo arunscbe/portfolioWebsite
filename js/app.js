@@ -44,6 +44,10 @@ $('.resumeClose').on('click',()=>{
     // }
   })  
 
+  $('.sketchesClose').on('click',()=>{
+    $('.sketchesContainer').hide();
+    // videoVis = true;
+  })
   $('.sketchesIcon').on('dblclick',()=>{
     console.log('---->');
     // if(videoVis){

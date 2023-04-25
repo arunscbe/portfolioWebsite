@@ -28,6 +28,7 @@ $('.resumeClose').on('click',()=>{
     if(!resumeVis){
       $('.resumeContainer').show();
       $('.videoContainer').hide();
+      $('.sketchesContainer').hide();
     }    
   })
   $('.videoClose').on('click',()=>{
@@ -38,7 +39,18 @@ $('.resumeClose').on('click',()=>{
     // if(videoVis){
     $('.videoContainer').show();
     $('.resumeContainer').hide();
+    $('.sketchesContainer').hide();
     resumeVis = false;
     // }
   })  
+
+  $('.sketchesIcon').on('dblclick',()=>{
+    console.log('---->');
+    // if(videoVis){
+      $('.sketchesContainer').show();
+    $('.videoContainer').hide();
+    $('.resumeContainer').hide();
+    resumeVis = false;
+    // }
+  }) 
 })
